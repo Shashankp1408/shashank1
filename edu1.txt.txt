@@ -1,0 +1,22 @@
+package string;
+
+public class Stringhalfreverese {
+
+	public static void main(String[] args) {
+	String s="KNOWLEDGE";
+	char[] s1=s.toCharArray();
+
+	
+	for(int i=s1.length/2;i<s1.length;i++) {
+		System.out.print(s1[i]);
+		}
+	for(int i=s1.length/2;i>=0;i--) {
+		System.out.print(s1[i]);
+	}
+		
+		
+		
+
+	}
+
+}
